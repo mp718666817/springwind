@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	span {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+</style>
+</head>
+<body>
+<span>5</span>
+<script type="text/javascript">
+window.onload=function(){
+	var span=document.getElementsByTagName("span")[0];
+	setInterval(function() {
+		var num=parseInt(span.innerHTML);
+		num--;
+		span.innerHTML=num;
+		if (num==1) { 
+			window.location.href="/web_login/success.html";
+		}
+	},1000)
+}
+</script>
+</body>
+</html>

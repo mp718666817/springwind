@@ -1,0 +1,25 @@
+DatagramSocket：此类表示用来发送和接收数据报包的套接字。
+构造函数：
+	DatagramSocket() 
+          构造数据报套接字并将其绑定到本地主机上任何可用的端口。
+
+	DatagramSocket(int port) 
+          创建数据报套接字并将其绑定到本地主机上的指定端口。	
+          
+          
+  方法：
+  			receive(DatagramPacket p) 
+          从此套接字接收数据报包。 
+			 void send(DatagramPacket p) 
+          从此套接字发送数据报包。 
+  			
+  			
+  			DatagramPacket：数据报包
+	  			DatagramPacket(byte[] buf, int length) 
+	          构造 DatagramPacket，用来接收长度为 length 的数据包。 
+			DatagramPacket(byte[] buf, int length, InetAddress address, int port) 
+         		 构造数据报包，用来将长度为 length 的包发送到指定主机上的指定端口号。 
+         		 
+         	DatagramPacket(byte[] buf, int length, SocketAddress address) 
+          构造数据报包，用来将长度为 length 的包发送到指定主机上的指定端口号。
+  			

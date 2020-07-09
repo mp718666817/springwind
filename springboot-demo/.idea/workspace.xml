@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="125ecca1-2022-475c-8bd4-b98244742118" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setUrl</find>
+      <find>dependencyManagement</find>
+      <find>choose</find>
+    </findStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\myrepository\repository" />
+        <option name="mavenHome" value="D:/JAVA/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1duHerRr4rs1zWsEcd2SnleSaHq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yaorange.userconsumerdemo.pojo" />
+      <recent name="com.yaorange.springboot.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ftp\java01\workspace\springboot-demo\springboot-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceDemoApplication">
+    <configuration name="RestTemplateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaorange.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yaorange.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.yaorange.springboot.RestTemplateTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserConsumerDemoApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-consumer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaorange.userconsumerdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yaorange.userconsumerdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.yaorange.userconsumerdemo.UserConsumerDemoApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yaorange.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDemoApplication-10087" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.eurekademo.EurekaDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.eurekademo.EurekaDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserConsumerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-consumer-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.userconsumerdemo.UserConsumerDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.userservicedemo.UserServiceDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceDemoApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yaorange.userservicedemo.UserServiceDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RestTemplateTest.test" />
+      <item itemvalue="JUnit.UserConsumerDemoApplicationTests.test" />
+      <item itemvalue="Spring Boot.EurekaDemoApplication" />
+      <item itemvalue="Spring Boot.UserConsumerDemoApplication" />
+      <item itemvalue="Spring Boot.UserServiceDemoApplication" />
+      <item itemvalue="Spring Boot.UserServiceDemoApplication2" />
+      <item itemvalue="Spring Boot.EurekaDemoApplication-10087" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserConsumerDemoApplicationTests.test" />
+        <item itemvalue="JUnit.RestTemplateTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="125ecca1-2022-475c-8bd4-b98244742118" name="Default Changelist" comment="" />
+      <created>1563845195438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563845195438</updated>
+      <workItem from="1563845197822" duration="14129000" />
+      <workItem from="1563878042824" duration="4000" />
+      <workItem from="1563929789878" duration="12991000" />
+      <workItem from="1593268158846" duration="89000" />
+      <workItem from="1593268276668" duration="472000" />
+      <workItem from="1593268775758" duration="122000" />
+      <workItem from="1593268932311" duration="1208000" />
+      <workItem from="1593274247315" duration="429000" />
+      <workItem from="1593274700211" duration="2854000" />
+      <workItem from="1593306619470" duration="100000" />
+      <workItem from="1593310514729" duration="3797000" />
+      <workItem from="1593318286148" duration="9271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RestTemplateTest_test - 2019.07.24 at 10h 28m 51s.xml">
+      <configuration name="RestTemplateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_test - 2019.07.24 at 10h 54m 15s.xml">
+      <configuration name="RestTemplateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserConsumerDemoApplicationTests_test - 2019.07.24 at 14h 47m 09s.xml">
+      <configuration name="UserConsumerDemoApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserConsumerDemoApplicationTests_test - 2019.07.24 at 14h 51m 18s.xml">
+      <configuration name="UserConsumerDemoApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593311880478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593311880478" />
+    <state x="724" y="90" key="FileChooserDialogImpl" timestamp="1593318094315">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="724" y="90" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593318094315" />
+    <state width="1024" height="290" key="GridCell.Tab.0.bottom" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.0.center" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.0.left" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.0.right" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.1.bottom" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.1.center" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.1.left" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.1.right" timestamp="1593342076245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593342076245" />
+    <state width="1024" height="290" key="GridCell.Tab.2.bottom" timestamp="1593321553978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593321553978" />
+    <state width="1024" height="290" key="GridCell.Tab.2.center" timestamp="1593321553978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593321553978" />
+    <state width="1024" height="290" key="GridCell.Tab.2.left" timestamp="1593321553977">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593321553977" />
+    <state width="1024" height="290" key="GridCell.Tab.2.right" timestamp="1593321553978">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="290" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593321553978" />
+    <state x="424" y="116" key="SettingsEditor" timestamp="1593305648663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="116" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593305648663" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1593274713599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593274713599" />
+    <state x="178" y="120" key="new project wizard" timestamp="1593342073718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593342073718" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-demo/src/main/java/com/yaorange/springboot/web/HelloController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.2.RELEASE/spring-cloud-netflix-ribbon-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.class</url>
+          <line>64</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.2.RELEASE/spring-cloud-netflix-ribbon-2.1.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((DruidDataSource) dataSource).getUrl()" language="JAVA" custom="com.alibaba.druid.pool.DruidDataSource" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>((DruidDataSource) dataSource).getUrl()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>com.alibaba.druid.pool.DruidDataSource</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>

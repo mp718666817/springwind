@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app" >
+    <hello1></hello1>
+    <counter :num1="num" v-model="num" @incr1="incre()"></counter>
+</div>
+
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    Vue.component("counter",{
+        template: "<button @click='subIncr'>点我加一{{num1}}</button>",
+        data() {
+            return {
+                num: 0
+            }
+        },
+        props: ["num1"],
+        methods: {
+            subIncr(){
+                this.$emit("incr1")
+            }
+        }
+
+    })
+    const hell0={
+        template: "<div>n你好我是{{name}}</div>",
+        data() {
+            return {
+                name: "张三"
+            }
+        }
+
+    }
+    const app = new Vue({
+        el: "#app",
+        data: {
+            num: 2
+        },
+        components: {
+            hello1: hell0
+        },
+        methods: {
+            incre(){
+                num++
+            }
+        }
+    })
+</script>
+</html>

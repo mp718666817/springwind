@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2af2dc5-1d2c-4c7c-b1a4-8916cd672b0c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\myrepository\repository" />
+        <option name="mavenHome" value="D:/JAVA/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1d5GdwCS2T4PxvD1FAOYezGPySR" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2af2dc5-1d2c-4c7c-b1a4-8916cd672b0c" name="Default Changelist" comment="" />
+      <created>1591707631084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591707631084</updated>
+      <workItem from="1591707633513" duration="2394000" />
+      <workItem from="1591712451554" duration="179000" />
+      <workItem from="1591712635189" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1591707828843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591707828843" />
+    <state x="622" y="130" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1591712538916">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="622" y="130" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1591712538916" />
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1591712471334">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591712471334" />
+    <state x="572" y="171" key="FileChooserDialogImpl" timestamp="1591712651464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="572" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591712651464" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1591712550982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591712550982" />
+    <state x="508" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591709627897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="508" y="314" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1591709627897" />
+  </component>
+</project>

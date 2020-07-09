@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaSE\day24\代码\day24_2"/>
+			<item value="C:\Users\mp718\eclipse-workspace\JspServlet-"/>
+			<item value="D:\JAVA\JspServlet-"/>
+			<item value="D:\JAVA\hotel_managerment_final"/>
+			<item value="D:\JAVA\servlet-core-learning"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaweb\crud"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaweb\crud\代码\crud"/>
+			<item value="C:\Users\mp718\eclipse-workspace\web_12"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaweb\jstl_el\代码\web_12"/>
+			<item value="C:\Users\mp718\eclipse-workspace"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaSE\day14\代码\day14_1"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaSE\day14"/>
+			<item value="D:\BaiduNetdiskDownload\敬哥\javaSE\day14\代码"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="129"/>
+		<item key="DIALOG_Y_ORIGIN" value="134"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode/&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<item key="ShowDerived" value="false"/>
+		<item key="FilterByLocation" value="false"/>
+		<item key="WorkingSet" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="598"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+		</section>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

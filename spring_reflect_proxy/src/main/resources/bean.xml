@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="proxyAccountService" factory-bean="beanfactory" factory-method="getAccountService"></bean>
+    <bean id="beanfactory" class="com.example.bean.BeanFactory">
+        <property name="accountService" ref="accountservice"></property>
+        <property name="txManager" ref="txmanger"></property>
+    </bean>
+    <bean id="accountservice" class="com.example.service.impl.AccountServiceImpl">
+        <property name="accountDao" ref="accountdao"></property>
+    </bean>
+    <bean id="accountdao" class="com.example.dao.impl.AccountDaoImpl">
+        <property name="runner" ref="runner"></property>
+        <property name="connectionUtils" ref="connectionutils"></property>
+    </bean>
+    <bean id="connectionutils" class="com.example.utils.ConnectionUtils">
+        <property name="dataSource" ref="datasource"></property>
+    </bean>
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner">
+    </bean>
+    <bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/eesy?serverTimezone=UTC"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+    <bean id="txmanger" class="com.example.utils.Transfrom">
+        <property name="conn" ref="connectionutils"></property>
+    </bean>
+</beans>

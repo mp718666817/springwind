@@ -1,0 +1,33 @@
+server:
+  port: 8888
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/ego
+  username: root
+  password: root
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ssm
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+mybatis:
+  mapper-location: classpath:mappers/*.xml
+  type-aliases-package: com.yaorange.springboot.pojo
+my:
+  user:
+    username: andy
+    password: 1111
+  arrays: 1,2,3,4,5
+  map:
+    username: andy
+    password: 1111
+  list:
+    - username: andy
+      password: 1111
+    - username: jack
+      password: 2222
+    - username: jay
+      password: 000

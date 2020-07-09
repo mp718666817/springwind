@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--MyBatis的核心配置文件-->
+<configuration>
+    <!--数据库配置文件-->
+    <properties resource="db.properties"/>
+
+    <!--配置自己工程中类名的别名-->
+    <typeAliases>
+        <!--<typeAlias type="com.yaorange.mybatis.orm.Dept" alias="dept"/>-->
+
+        <!--配置包名,则该包下所有的类名自动将首字母小写, 或者直接用类名都是该类的别名
+            com.yaorange.mybatis.orm.Dept, 做如下别名映射之后, 则Dept或dept都是它的别名
+        -->
+        <package name="com.example.orm"/>
+    </typeAliases>
+
+    <!--配置MyBatis需要的环境变量-->
+    <environments default="dev">
+        <environment id="dev">
+            <!--
+              事务管理器
+              事务(transaction): 确保数据库的"同一次"增删改操作是"事务地运行"
+              回顾:事务有4大特性(ACID):
+              原子性: 事务里的操作"是一个整体, 要么全部都执行(提交commit), 要么全部都不执行(回滚rollback)"
+              隔离性:  事务之间是相对独立的,不受其它事务的干扰-有赖于隔离级别设置的正确性
+              一致性:  各个事务对数据库的数据的修改是一致的, 不会出现"同一数据同一时刻不同值"
+              永久性:  事务对数据的修改, 一旦提交之后, 就不能再回滚了.
+              -->
+            <transactionManager type="JDBC"/>
+
+            <!--数据源, MyBatis自带连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${DRIVER}"/>
+                <property name="url" value="${URL}"/>
+                <property name="username" value="${USER}"/>
+                <property name="password" value="${PASS}"/>
+            </dataSource>
+        </environment>
+        <environment id="test">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${DRIVER}"/>
+                <property name="url" value="${URL}"/>
+                <property name="username" value="${USER}"/>
+                <property name="password" value="${PASS}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--注册ORM文件-->
+    <mappers>
+    </mappers>
+</configuration>

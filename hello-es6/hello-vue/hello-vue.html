@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{name}}拥有{{num}}<input value="按钮" type="button" v-on:click="incr"/>女朋友<br>
+    <input type="checkbox" value="java" v-model="language">java<br>
+    <input type="checkbox" value="php" v-model="language">php<br>
+    <input type="checkbox" value="c++" v-model="language">c++<br>
+    你选择了{{language}}
+</div>
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data: {
+            name: "蒋天龙",
+            num: 1000,
+            language: []
+        },
+        methods: {
+            incr() {
+                this.num++;
+            }
+        }
+
+    })
+
+</script>
+</html>

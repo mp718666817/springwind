@@ -1,0 +1,78 @@
+
+jsp:  java Server page
+
+	Servlet / JSP 区别？
+		JSP 本质 还是Servlet
+		
+		
+	JSP中能放那些？
+
+
+	<%!     书写类、 方法 （定义在类的成员部分） %>
+	<%     业务部分   （放在Service方法中） %>
+	
+	<%=  输出 变量 %>
+	
+	<%--  jsp 注释  --%>
+	
+	
+	
+	
+	
+	
+	JSP 指令：
+	
+		page:
+			
+		
+		include
+		
+		taglib
+		
+		
+		
+	动作指令：
+	
+	
+	JSP 隐式对象 -  JSP九大内置对象有那些？
+	
+		request： HttpServletRequest
+		response: HttpServletResponse
+		out:  JspWriter
+		session: HttpSession
+		application: ServletContext
+		config:ServletConfig
+		page:Object
+		pageContext:PageContext
+		exception:Throwable
+
+
+经常使用：
+
+	request  response  session application 
+	
+	
+	JSP 四大作用域：
+	
+	page  --> request --->session ---> application
+	
+	
+	
+	
+EL表达式：
+	语法：
+		${指明域名称.变量}
+	作用： 是获取四大作用域中的数据
+		
+		
+		1、 当在el中不指明作用域名称是按照以下规则获取
+		
+			page  --> request --->session ---> application
+		
+		
+		2、EL： 操作变量、对象、数组 、集合
+		
+		
+		JSTL:	
+		
+			标准标签库

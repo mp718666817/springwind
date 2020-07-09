@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.IUserDao">
+<!--    <resultMap id="resultMap" type="usermap">
+        <id column="id" property="id"></id>
+        <result column="username" property="username"></result>
+        <result column="address" property="userAddress"></result>
+        <result column="sex" property="userSex"></result>
+        <result column="birthday" property="userBirthday"></result>
+    </resultMap>-->
+    <select id="findAll" resultType="com.example.domain.User">
+        select* from user
+    </select>
+    <insert id="saveUser" parameterType="com.example.domain.User">
+        <selectKey keyProperty="id" keyColumn="id" resultType="INT" order="AFTER">
+            select last_insert_id()
+        </selectKey>
+        insert into user (username,address,sex,birthday) values(#{username},#{address},#{sex},#{birthday})
+    </insert>
+    <update id="updateUser" parameterType="com.example.domain.User">
+        update user set username=#{username},address=#{address},sex=#{sex},birthday=#{birthday} where id=#{id}
+    </update>
+    <delete id="deteleUser" parameterType="INT">
+        delete from user where id=#{id}
+    </delete>
+    <select id="findByName" parameterType="string" resultType="com.example.domain.User">
+        select * from user where username like #{name}
+    </select>
+    <insert id="savaData" parameterType="com.example.domain.QueryVo" >
+        insert into user (username,address,sex,birthday)
+        values(#{user.username},#{user.address},#{user.sex},#{user.birthday})
+    </insert>
+</mapper>

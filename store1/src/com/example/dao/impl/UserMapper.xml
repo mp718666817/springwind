@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.UserDao">
+    <sql id="allCols">
+        uid,
+        username,
+        password,
+        name,
+        email,
+        telephone,
+        birthday,
+        sex,
+        status,
+        code
+    </sql>
+    <select id="findByName" resultType="user" parameterType="java.lang.String">
+        select * from user where username = #{username}
+    </select>
+    <insert id="save" parameterType="user">
+        insert into user(<include refid="allCols"/>)
+        values(#{uid},#{username},#{password},#{name},#{email},#{telephone},#{telephone},#{birthday},#{sex},#{status},#{code})
+    </insert>
+    <update id="update"></update>
+</mapper>

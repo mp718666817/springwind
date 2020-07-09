@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f457e446-89d2-4d6f-a698-5d4a88d4311c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/JAVA/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1c6u9fwZSLXlhW1Yp4VrxiVqIiH" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day01_eesy_04mybatis_design" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.MybatisTest" />
+      <module name="da01_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MybatisTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f457e446-89d2-4d6f-a698-5d4a88d4311c" name="Default Changelist" comment="" />
+      <created>1589861213673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589861213673</updated>
+      <workItem from="1589861218556" duration="7393000" />
+      <workItem from="1589880907333" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="80" key="#Project_Structure" timestamp="1589867642678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="80" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1589867642678" />
+    <state x="223" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589868893878">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589868893878" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1589871169010">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589871169010" />
+    <state x="399" y="347" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589867851074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="347" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1589867851074" />
+    <state x="445" y="157" key="FileChooserDialogImpl" timestamp="1589880956138">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="445" y="157" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589880956138" />
+    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1589880865510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589880865510" />
+    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1589880865510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589880865510" />
+    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1589880865510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589880865510" />
+    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1589880865510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589880865510" />
+    <state x="29" y="33" width="1483" height="708" key="SettingsEditor" timestamp="1589870664381">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="29" y="33" width="1483" height="708" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589870664381" />
+    <state x="565" y="199" key="chooseDestDirectoryDialog" timestamp="1589867954740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="199" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1589867954740" />
+    <state x="177" y="89" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1589870662257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="177" y="89" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1589870662257" />
+  </component>
+</project>

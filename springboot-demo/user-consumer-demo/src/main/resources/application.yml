@@ -1,0 +1,27 @@
+server:
+  port: 8082
+eureka:
+  client:
+    service-url: # EurekaServer��ַ
+      defaultZone: http://127.0.0.1:10086/eureka,
+  instance:
+    prefer-ip-address: true # ������getHostname��ȡʵ����hostnameʱ������ip������host����
+    ip-address: 127.0.0.1 # ָ���Լ���ip��Ϣ����ָ���Ļ����Լ�Ѱ��
+spring:
+  application:
+    name: user-consumer
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true # ����Spring Cloud�����Թ���
+user-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        retry: debug
+

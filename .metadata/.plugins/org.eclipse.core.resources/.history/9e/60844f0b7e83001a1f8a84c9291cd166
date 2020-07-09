@@ -1,0 +1,85 @@
+package com.cn.lamba;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.stream.Stream;
+
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+
+class test {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+	@Test
+	public void test() {
+		ArrayList<Employees> list = new ArrayList<>();
+		Thread t1 = new Thread(new Runnable() {
+			public void run() {
+				list.add(new Employees("张三", 10000, 1));
+				list.add(new Employees("李四", 2000, 2));
+				for (Employees employees : list) {
+					System.out.println(employees);
+					try {
+						Thread.sleep(100);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}
+			}
+		});
+		Thread t2 = new Thread(()->System.out.println("nihao"));
+		t1.start();
+		t2.start();
+		System.out.println("----------------------------");
+		Employees em = new Employees("123", 5000, 3);
+		Consumer<Employees> c = (e)->System.out.println(e);
+		c.accept(new Employees("123", 2500, 5 )); 
+		list.add(new Employees("张五", 2000, 5));
+		list.add(new Employees("李六", 2000, 6));	
+		list.add(new Employees("王七",3000,3));
+		list.add(new Employees("赵八",3400,4));
+		list.add(new Employees("胡九",4000,7));
+/*		Comparator<Employees> cr = (e1,e2)->{
+			int num = e1.getSalary()-e2.getSalary();
+			return num==0?e1.getId()-e2.getId():num;
+		};*/
+		System.out.println("------------------------------------");
+		Collections.sort(list,(e1,e2)->{
+			int num = e1.getSalary()-e2.getSalary();
+			return num==0?e1.getId()-e2.getId():num;
+		});
+		System.out.println(list.stream().filter((e)->e.getSalary()!=3000);
+		for (Employees employees : list) {
+			System.out.println(employees);
+//			System.out.println();
+		}
+		}
+	@Test
+	public void a1() {
+		List<Transaction> transactions = null;
+		Trader raoul = new Trader("Raoul", "Cambridge");
+			Trader mario = new Trader("Mario", "Milan");
+			Trader alan = new Trader("Alan", "Cambridge");
+			Trader brian = new Trader("Brian", "Cambridge");
+			
+			transactions = Arrays.asList(
+					new Transaction(brian, 2011, 300),
+					new Transaction(raoul, 2012, 1000),
+					new Transaction(raoul, 2011, 400),
+					new Transaction(mario, 2012, 710),
+					new Transaction(mario, 2012, 700),
+					new Transaction(alan, 2012, 950)
+			);
+			transactions.stream().filter((e)->e.getYear()==2011).sorted().forEach(System.out::println);
+	}
+		
+
+}

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mybatis_JNDI:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c027ad23-1eb3-433e-99f6-3826d30c824f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\myrepository\repository" />
+        <option name="mavenHome" value="D:/JAVA/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1cDiuFck6pvFTgcuA3ghfWNzZ4A" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/day03_eesy_05jndi/WEB-INF/lib/servlet-api-2.5.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mp718\eclipse-workspace\mybatis_JNDI\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\mp718\eclipse-workspace\mybatis_JNDI\src\main\webapp" />
+      <recent name="C:\Users\mp718\eclipse-workspace\mybatis_JNDI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mp718\eclipse-workspace\mybatis_JNDI" />
+      <recent name="C:\Users\mp718\eclipse-workspace\mybatis_JNDI\src\main\webapp\META-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
+    <configuration name="test.findall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_JNDI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test" />
+      <option name="METHOD_NAME" value="findall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mybatis_JNDI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mybatis_JNDI_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mybatis_JNDI" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51488" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="" />
+          <option name="VALUE" value="" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mybatis_JNDI:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mybatis_JNDI:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mybatis_JNDI_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_mybatis_JNDI" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51848" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mybatis_JNDI:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.test.findall" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.52" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="JUnit.test.findall" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.040800616" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c027ad23-1eb3-433e-99f6-3826d30c824f" name="Default Changelist" comment="" />
+      <created>1590069785994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590069785994</updated>
+      <workItem from="1590069787592" duration="3696000" />
+      <workItem from="1590073533215" duration="2776000" />
+      <workItem from="1590115533620" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="39" key="#Tomcat_8.0.52" timestamp="1590072550583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="452" y="39" key="#Tomcat_8.0.52/0.0.1536.824@0.0.1536.824" timestamp="1590072550583" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590075970677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590075970677" />
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1590075572465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="171" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590075572465" />
+    <state x="548" y="171" key="FileChooserDialogImpl" timestamp="1590075175808">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590075175808" />
+    <state width="1242" height="384" key="GridCell.Tab.0.bottom" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.0.center" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.0.left" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.0.right" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.1.bottom" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state width="1242" height="384" key="GridCell.Tab.1.center" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.1.left" timestamp="1590076312796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590076312796" />
+    <state width="1242" height="384" key="GridCell.Tab.1.right" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state width="1242" height="384" key="GridCell.Tab.2.bottom" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state width="1242" height="384" key="GridCell.Tab.2.center" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state width="1242" height="384" key="GridCell.Tab.2.left" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state width="1242" height="384" key="GridCell.Tab.2.right" timestamp="1590076312797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1242" height="384" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1590076312797" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1590075576201">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590075576201" />
+    <state x="339" y="61" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1590073130380">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="339" y="61" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590073130380" />
+  </component>
+</project>

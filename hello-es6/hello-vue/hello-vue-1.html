@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="vue">
+    <h3> {{name}}拥有{{num}}女朋友</h3>
+</div>
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    const vue = new vue({
+        el:"#vue",
+        data:{
+            name: "蒋天龙",
+            num: 1000
+        },
+        method:{
+            incr() {
+                num++;
+            }
+        }
+    })
+</script>
+</html>
